@@ -1,0 +1,93 @@
+{"frames": [
+
+{
+	"filename": "goonie_000.png",
+	"frame": {"x":1,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_001.png",
+	"frame": {"x":53,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_002.png",
+	"frame": {"x":105,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_003.png",
+	"frame": {"x":157,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_004.png",
+	"frame": {"x":209,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_005.png",
+	"frame": {"x":261,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_006.png",
+	"frame": {"x":313,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_007.png",
+	"frame": {"x":365,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "goonie_008.png",
+	"frame": {"x":417,"y":1,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":57},
+	"sourceSize": {"w":50,"h":57},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "gooniesSameSizeCentered.png",
+	"format": "RGBA8888",
+	"size": {"w":468,"h":59},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0a0f9d6a9e14e8052654fcec0a52222f:49fc11df3c1cc9cd684ca1cde85d1723:31f44a2dd9876a3e5be45d08941cfcc7$"
+}
+}

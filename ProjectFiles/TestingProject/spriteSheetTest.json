@@ -1,0 +1,70 @@
+{
+
+  "frames": 
+  [
+    {
+      "filename": "goonie.png",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 29
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 29
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 29
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "parakoopa.png",
+      "frame": {
+        "x": 0,
+        "y": 29,
+        "w": 36,
+        "h": 36
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 36,
+        "h": 36
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 36
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+
+  "meta": 
+  {
+    "app": "http://www.codeandweb.com/texturepacker",
+    "version": "1.0",
+    "image": "spritesheettest.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 36,
+      "h": 65
+    },
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:8a7a0e2d8f50da2383151fdb76e1b339:ad5af20ea1a2ee89b140ca7cbe27a5b0:5aa01d4bd6c40d3a2d6c5defa9f4816f$"
+  }
+}

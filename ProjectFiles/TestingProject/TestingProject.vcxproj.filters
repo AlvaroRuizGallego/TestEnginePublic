@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{7e382f04-8e23-4e95-b581-51abf84ea42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes">
+      <UniqueIdentifier>{905c7588-2766-401c-8092-3620937b3447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Test">
+      <UniqueIdentifier>{74b94cce-5509-48fe-a835-38a4c33630fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Shaders">
+      <UniqueIdentifier>{15661e62-d68e-4474-8a99-4fe94625060d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Test\StateMachine">
+      <UniqueIdentifier>{e93b71b5-f102-4513-9572-3e2ab3224e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Components">
+      <UniqueIdentifier>{6db20a12-76ad-4064-872f-069f73d722bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scenes\Scenes to show">
+      <UniqueIdentifier>{c082e6d3-e78d-4b11-882f-b2e088babd18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState1.cpp">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestState2.cpp">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestStateMachine.cpp">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagementScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagementScene2.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallaxTestScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>Classes\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDrawer.cpp">
+      <Filter>Classes\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSDisplayer.cpp">
+      <Filter>Classes\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioTestScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioTestScene2.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="BenchmarkScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionBenchmarkScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="TransparencyTestScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManualController.cpp">
+      <Filter>Classes\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTestScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestScene2.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="ForcesTestScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTestScene2.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SimplestScene.cpp">
+      <Filter>Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSceneAudio.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSceneGraphics.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScenePhysics.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TestState1.h">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="TestState2.h">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="TestStateMachine.h">
+      <Filter>Classes\Test\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagementScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagementScene2.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxTestScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDrawer.h">
+      <Filter>Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSDisplayer.h">
+      <Filter>Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioTestScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioTestScene2.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="BenchmarkScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBenchmarkScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="TransparencyTestScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManualController.h">
+      <Filter>Classes\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTestScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestScene2.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="ForcesTestScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTestScene2.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SimplestScene.h">
+      <Filter>Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSceneAudio.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSceneGraphics.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScenePhysics.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Classes\Scenes\Scenes to show</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Lines.fg">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="Lines.vx">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="Translucent.fg">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="Default.fg">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="Default.vx">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+    <None Include="Vignette.fg">
+      <Filter>Classes\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="AudioListener.cpp" />
+    <ClCompile Include="AudioSource.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CollisionQuerier.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ControllerInput.cpp" />
+    <ClCompile Include="Drawer.cpp" />
+    <ClCompile Include="SpriteSheetManager.cpp" />
+    <ClCompile Include="TextLabel.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="_Arbiter.cpp" />
+    <ClCompile Include="_AudioLoader.cpp" />
+    <ClCompile Include="_Font.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Mask.cpp" />
+    <ClCompile Include="MaskManager.cpp" />
+    <ClCompile Include="PhysicsMaterial.cpp" />
+    <ClCompile Include="_Projection.cpp" />
+    <ClCompile Include="Rigidbody.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="AnimatedSpriteRenderer.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="_AudioEngine.cpp" />
+    <ClCompile Include="_PhysicsEngine.cpp" />
+    <ClCompile Include="_FontLoader.cpp" />
+    <ClCompile Include="_InputManager.cpp" />
+    <ClCompile Include="_Sprite.cpp" />
+    <ClCompile Include="_SpriteManager.cpp" />
+    <ClCompile Include="SpriteSheet.cpp" />
+    <ClCompile Include="_RenderingEngine.cpp" />
+    <ClCompile Include="_SpriteBatch.cpp" />
+    <ClCompile Include="_Texture.cpp" />
+    <ClCompile Include="_Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="AudioListener.h" />
+    <ClInclude Include="AudioSource.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CollisionData.h" />
+    <ClInclude Include="CollisionQuerier.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ControllerInput.h" />
+    <ClInclude Include="Drawer.h" />
+    <ClInclude Include="SpriteSheetManager.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="TextLabel.h" />
+    <ClInclude Include="_Arbiter.h" />
+    <ClInclude Include="_AudioLoader.h" />
+    <ClInclude Include="_Font.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="InputBinds.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Mask.h" />
+    <ClInclude Include="MaskManager.h" />
+    <ClInclude Include="PhysicsMaterial.h" />
+    <ClInclude Include="_Projection.h" />
+    <ClInclude Include="Rigidbody.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="AnimatedSpriteRenderer.h" />
+    <ClInclude Include="SpriteRenderer.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="_AudioEngine.h" />
+    <ClInclude Include="_PhysicsEngine.h" />
+    <ClInclude Include="_FontLoader.h" />
+    <ClInclude Include="_InputManager.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="_Sprite.h" />
+    <ClInclude Include="_SpriteManager.h" />
+    <ClInclude Include="SpriteSheet.h" />
+    <ClInclude Include="_Quad.h" />
+    <ClInclude Include="_RenderingEngine.h" />
+    <ClInclude Include="_SpriteBatch.h" />
+    <ClInclude Include="_Texture.h" />
+    <ClInclude Include="_Window.h" />
+    <ClInclude Include="WindowMode.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28D07499-8751-49AE-B5D5-2112477B0CCE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\Temp\</IntDir>
+    <TargetExt>.dll</TargetExt>
+    <OutDir>$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\Temp\</IntDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\Temp\</IntDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\Temp\</IntDir>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\freeimage\include;$(ProjectDir)..\Middleware\glew\include;$(ProjectDir)..\Middleware\glm\include;$(ProjectDir)..\Middleware\glfw\include;$(ProjectDir)..\Middleware\OpenAL\include;$(ProjectDir)..\Middleware\freetype\include</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\freeimage\lib;$(ProjectDir)..\Middleware\glew\lib;$(ProjectDir)..\Middleware\glfw\lib;$(ProjectDir)..\Middleware\OpenAL\lib;$(ProjectDir)..\Middleware\freetype\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype271.lib;OpenAL32.lib;FreeImage.lib;opengl32.lib;glew32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\freeimage\include;$(ProjectDir)..\Middleware\glew\include;$(ProjectDir)..\Middleware\glm\include;$(ProjectDir)..\Middleware\glfw\include;$(ProjectDir)..\Middleware\OpenAL\include;$(ProjectDir)..\Middleware\freetype\include</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OmitFramePointers>false</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\freeimage\lib;$(ProjectDir)..\Middleware\glew\lib;$(ProjectDir)..\Middleware\glfw\lib;$(ProjectDir)..\Middleware\OpenAL\lib;$(ProjectDir)..\Middleware\freetype\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype271.lib;OpenAL32.lib;FreeImage.lib;opengl32.lib;glew32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\freeimage\include;$(ProjectDir)..\Middleware\glew\include;$(ProjectDir)..\Middleware\glm\include;$(ProjectDir)..\Middleware\glfw\include;$(ProjectDir)..\Middleware\OpenAL\include;$(ProjectDir)..\Middleware\freetype\include</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\freeimage\lib;$(ProjectDir)..\Middleware\glew\lib;$(ProjectDir)..\Middleware\glfw\lib;$(ProjectDir)..\Middleware\OpenAL\lib;$(ProjectDir)..\Middleware\freetype\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype271.lib;OpenAL32.lib;FreeImage.lib;opengl32.lib;glew32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Neuma\$(Configuration)\$(Platform)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Middleware\freeimage\include;$(ProjectDir)..\Middleware\glew\include;$(ProjectDir)..\Middleware\glm\include;$(ProjectDir)..\Middleware\glfw\include;$(ProjectDir)..\Middleware\OpenAL\include;$(ProjectDir)..\Middleware\freetype\include</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\Middleware\freeimage\lib;$(ProjectDir)..\Middleware\glew\lib;$(ProjectDir)..\Middleware\glfw\lib;$(ProjectDir)..\Middleware\OpenAL\lib;$(ProjectDir)..\Middleware\freetype\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freetype271.lib;OpenAL32.lib;FreeImage.lib;opengl32.lib;glew32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"
+copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Neuma\$(Configuration)\$(Platform)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

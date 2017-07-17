@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="_AudioEngine.cpp">
+      <Filter>Classes\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>Classes\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="_Sprite.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_SpriteBatch.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_SpriteManager.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_Texture.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSpriteRenderer.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_Window.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Classes\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Classes\Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="_InputManager.cpp">
+      <Filter>Classes\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Classes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMaterial.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionQuerier.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mask.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MaskManager.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Classes\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="_FontLoader.cpp">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="_Font.cpp">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLabel.cpp">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioListener.cpp">
+      <Filter>Classes\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerInput.cpp">
+      <Filter>Classes\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="_Arbiter.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="_PhysicsEngine.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="_RenderingEngine.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawer.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_Projection.cpp">
+      <Filter>Classes\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheetManager.cpp">
+      <Filter>Classes\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="_AudioLoader.cpp">
+      <Filter>Classes\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Classes\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Classes\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_AudioEngine.h">
+      <Filter>Classes\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>Classes\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="_Quad.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_Sprite.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_SpriteBatch.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_SpriteManager.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_Texture.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSpriteRenderer.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_Window.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Classes\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Classes\Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="_InputManager.h">
+      <Filter>Classes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBinds.h">
+      <Filter>Classes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMaterial.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionQuerier.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mask.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MaskManager.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Classes\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Classes\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="_FontLoader.h">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="_Font.h">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLabel.h">
+      <Filter>Classes\Rendering\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioListener.h">
+      <Filter>Classes\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerInput.h">
+      <Filter>Classes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="_Arbiter.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="_PhysicsEngine.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="_RenderingEngine.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawer.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowMode.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_Projection.h">
+      <Filter>Classes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheetManager.h">
+      <Filter>Classes\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="_AudioLoader.h">
+      <Filter>Classes\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Classes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Classes\Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{e6e12b1f-9c18-4741-87d2-4155453603a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Audio">
+      <UniqueIdentifier>{e5aca02c-3b2f-4b23-81ad-679bd21894d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Input">
+      <UniqueIdentifier>{3460daba-02fe-4911-aaa9-61ba7fe5f38d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Physics">
+      <UniqueIdentifier>{585e93cc-d053-4725-838c-9eb785b66053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Rendering">
+      <UniqueIdentifier>{71f8cd2c-36a9-4caa-a9cd-93ce230f8bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Utils">
+      <UniqueIdentifier>{59864b3c-261f-4688-9ea2-a7969f4ca3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{35b1ec92-a456-41f0-84b0-fde82e3dc252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Scenes">
+      <UniqueIdentifier>{5fb7b549-6f93-48df-8d19-b7013e6bed96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\StateMachine">
+      <UniqueIdentifier>{2325518a-da57-4b9e-be50-12f765963516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Rendering\Text">
+      <UniqueIdentifier>{3e2a25db-66f7-46fc-8141-46cdc52013e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

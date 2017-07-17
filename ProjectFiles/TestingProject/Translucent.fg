@@ -1,0 +1,21 @@
+#version 450
+
+out layout(location = 0) vec4 outColor;
+
+in vec2 texCoord;
+in vec4 fragColor;
+
+uniform sampler2D tex;
+
+
+void main()
+{
+	vec4 texel = texture(tex, texCoord);
+
+	if((texel.a == 1 && fragColor.w == 1) || (texel.a == 0 || fragColor.w == 0))
+	{
+		discard;
+	}
+
+	outColor = texel * fragColor;
+}
