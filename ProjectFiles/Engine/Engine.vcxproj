@@ -255,7 +255,7 @@ copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(Projec
     <PostBuildEvent>
       <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
 copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"
-copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Neuma\$(Configuration)\$(Platform)"</Command>
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -284,7 +284,7 @@ copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(Projec
     <PostBuildEvent>
       <Command>copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Sandbox\$(Configuration)\$(Platform)"
 copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\TestingProject\$(Configuration)\$(Platform)"
-copy "$(ProjectDir)..\Engine\$(Configuration)\$(Platform)\Engine.dll"  "$(ProjectDir)..\Neuma\$(Configuration)\$(Platform)"</Command>
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
