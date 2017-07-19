@@ -610,11 +610,8 @@ void _RenderingEngine::Update()
 
 	Drawer::GetInstance()->Clear();
 
-
 	//Swap buffers
-	//printf("\nRENDER UPDATE A");//TEMP
 	_window->SwapBuffers();
-	//printf("\nRENDER UPDATE B");//TEMP
 }
 
 void _RenderingEngine::SetCamera(Camera * camera)
@@ -637,7 +634,10 @@ void _RenderingEngine::Clear()
 		textureIDs.push_back(it->second);
 	}
 
-	glDeleteTextures(textureIDs.size(), &textureIDs[0]);
+	if (textureIDs.size() > 0)
+	{
+		glDeleteTextures(textureIDs.size(), &textureIDs[0]);
+	}
 	_textureMap.clear();
 }
 

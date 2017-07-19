@@ -507,11 +507,6 @@ void Game::Initialize(std::string  configurationFile)
 
 	//Time variables
 	double timeAccumulator = 0;
-	double lastScreenUpdateTime = 0;
-
-	//DEBUG
-	int i = 0;
-	float completionTime = 0;
 
 	//Main loop
 	while (!_terminate && !_window->ShouldClose())
@@ -538,15 +533,9 @@ void Game::Initialize(std::string  configurationFile)
 
 		_currentScene->Update(deltaTime);
 
-		//printf("\nGAME UPDATE A");
-
 		_renderingEngine->Update();
 
-		//printf("\nGAME UPDATE C");
-
 		glfwPollEvents();
-
-		//printf("\nGAME UPDATE D");
 	}
 
 	onTerminate();
